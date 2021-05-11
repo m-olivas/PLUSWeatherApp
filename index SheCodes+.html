@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>+HW</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+    <script
+      src="https://kit.fontawesome.com/59e5574993.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <form id="city-form">
+        <input type="text" class="search-city" id="input-city" placeholder="🔍 Search a City" autocomplete="off" />
+        <input type="submit" value="Go" />
+      </form>
+      <h1 id="city">Phoenix</h1>
+      <h2 id="date">
+        Monday, March 22, 2021
+      </h2>
+      <h2 id="time">
+        6:30pm
+      </h2>
+      <h3>
+        <div class="row nowWeather">
+            <div class="col-6 tempDesc">
+              <span id="description">Sunny</span> <br />
+            <span id="highs">72</span>°F / <span id="lows">66</span>°F
+          </div>
+          <div class="col-2 mainEmoji">
+            ☀ 
+          </div>
+          <div class="col-2 mainTemp" id="main-temp">
+            68
+          </div>
+          
+          <div class="col-2">
+            <span class="units">
+                <!--<a href="" class="temp-format fahrenheit" id="link-fahrenheit"
+                      > -->°F
+                <!-- </a>  -->
+                    |
+                <!--<a href="" class="temp-format celsius" id="link-celsius"
+                      >  -->°C
+                <!-- </a>  -->
+                  </span>
+           </div>
+      </h3>
+      <p>
+        What to expect
+      <div class="row newWeather">
+        <div class="col">
+          <div class="card border-info mb-3" style="max-width: 18rem;">
+            <div class="card-header">Tuesday</div>
+              <div class="card-body">
+              <h5 class="card-title">☁</h5>
+              <p class="card-text">63°</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card border-info mb-3" style="max-width: 18rem;">
+            <div class="card-header">Wednesday</div>
+              <div class="card-body">
+              <h5 class="card-title">⛅</h5>
+              <p class="card-text">71°</p>
+              </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card border-info mb-3" style="max-width: 18rem;">
+            <div class="card-header">Thursday</div>
+              <div class="card-body">
+              <h5 class="card-title">☁</h5>
+              <p class="card-text">70°</p>
+              </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card border-info mb-3" style="max-width: 18rem;">
+            <div class="card-header">Friday</div>
+              <div class="card-body">
+              <h5 class="card-title">⛅</h5>
+              <p class="card-text">76°</p>
+              </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card border-info mb-3" style="max-width: 18rem;">
+            <div class="card-header">Saturday</div>
+              <div class="card-body">
+              <h5 class="card-title">☀</h5>
+              <p class="card-text">78°</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      </p>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

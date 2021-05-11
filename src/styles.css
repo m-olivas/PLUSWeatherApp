@@ -1,0 +1,39 @@
+form {
+  text-align: right;
+}
+h1 {
+  font-size: 75px;
+  margin-bottom: 0;
+  /*line-height: 70px;*/
+}
+h2 {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+h3 {
+  font-size: 60px;
+  margin: 40px 0px;
+  /*text-align: right;*/
+}
+p {
+  color: #161d6f;
+  font-weight: bold;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 40px 60px;
+  border: solid;
+  border-radius: 10px;
+  background: linear-gradient(120deg, #ccf2f4, #f4f9f9);
+  /*background-image: linear-gradient(120deg, #8fd3f4 0%, #84fab0 100%);*/
+}
+.tempDesc {
+  font-size: 28px;
+  font-weight: normal;
+  text-align: right;
+}
+.units {
+  font-size: 20px;
+}
